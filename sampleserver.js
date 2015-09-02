@@ -2,7 +2,7 @@
 var http = require('http');
 
 
-f dealWithWebRequest(request, response) {
+function dealWithWebRequest(request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.write("node,js");
   response.end()
