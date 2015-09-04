@@ -1,5 +1,5 @@
 
-var  = require('http');
+var http = require('http');
 
 
 function dealWithWebRequest(request, response) {
